@@ -5,6 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet" type="text/css">
     <title>Home</title>
+    <link rel="icon" type="image/x-icon" href="../resources/img/logo.png">
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+
+
+<!-- Javascript Script -->
+    <script type="text/javascript">
+
+        $(document).ready(function(){
+
+            //BUG A corriger
+
+            $('.menu_item_div').mousemove(function(){
+                $(this).css("background-color", "#DEDBDB");
+                $(this).css("margin-left","-40px");
+            })
+            
+            $('.menu_item_div').mouseleave(function(){
+                $(this).css("background-color", "#FFFFFF");
+                $(this).css("margin-left","40px");
+            })
+
+
+        });
+
+
+    </script>
+
+
 </head>
 <body>
 
@@ -19,34 +47,32 @@
         </div>
 
         <div class="header_logo">
-            <img src="../resources/img/logo_cart.png" alt="Cart" class="header_thumbnail">
-            <img src="../resources/img/logo_account.jpg" alt="Account" class="header_thumbnail">
+            <a href=""><img src="../resources/img/logo_cart.png" alt="Cart" class="header_thumbnail"></a><!-- Mettre le lien de la bonne page -->
+            <a href=""><img src="../resources/img/logo_account.jpg" alt="Account" class="header_thumbnail"></a><!-- Mettre le lien de la bonne page -->
         </div>
     </div>
 
 
     <div class="container">
 
-        
 
         <div class="menu">
             <ul>
-
-                <div>
+                <div class="menu_item_div" id="category">
                     <li><a href="../Category/category.html"><img src="../resources/img/Category.png" alt="Category" class="menu_item" id="category"></a></li>
                 </div>
                 
-                <div>
-                    <li><img src="../resources/img/Category.png" alt="Buying" class="menu_item" id="buying"></li>
+                <div class="menu_item_div" id="buying">
+                    <li><a href=""><img src="../resources/img/Buying.png" alt="Buying" class="menu_item"></a></li><!-- Mettre le lien de la bonne page -->
                 </div>
                
-                <div>
-                    <li><img src="../resources/img/Category.png" alt="Sell" class="menu_item" id="sell"></li>
+                <div class="menu_item_div" id="sell">
+                    <li><a href=""><img src="../resources/img/Sell.png" alt="Sell" class="menu_item"></a></li> <!-- Mettre le lien de la bonne page -->
+                    
                 </div>
-                
-
             </ul>
         </div>
+
 
         <div class="content">
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum saepe nesciunt in dolorem. Aperiam, vel totam optio deleniti vero corporis omnis alias nostrum impedit debitis, ipsa voluptates rem eius recusandae!</p>

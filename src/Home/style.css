@@ -19,12 +19,12 @@ body{
 }
 
 .title > h1 {
-    margin-left: 500px;
-    margin-right: 500px;
+    margin-left: 450px;
+    margin-right: 450px;
 }
 
 .logo{
-    width: 100px;
+    width: 150px;
     height: 100px;
 }
 
@@ -35,8 +35,8 @@ body{
 }
 
 .header_thumbnail{
-    width: 10px;
-    height: 10px;
+    width: 40px;
+    height: 40px;
 }
 
 /* Container */
@@ -62,6 +62,7 @@ body{
 
 .menu_item{
     width: 200px;
+    height: 22.600px;
     margin-top: 50px;
     margin-right: 50px;
     margin-bottom: 50px;
@@ -77,4 +78,11 @@ body{
 .thumbnail{
     width: 150px;
     margin: 5%;
+}
+
+
+/* Footer */
+
+.footer{
+    text-align: center;
 }
