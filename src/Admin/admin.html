@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <title>Home</title>
+    <link rel="icon" type="image/x-icon" href="../resources/img/logo.png">
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+
+
+<!-- Javascript Script -->
+    <script type="text/javascript">
+
+        $(document).ready(function(){
+
+            //BUG A corriger
+
+            $('.menu_item_div').mousemove(function(){
+                $(this).css("background-color", "#DEDBDB");
+                $(this).css("margin-left","-40px");
+            })
+            
+            $('.menu_item_div').mouseleave(function(){
+                $(this).css("background-color", "#FFFFFF");
+                $(this).css("margin-left","40px");
+            })
+
+
+        });
+
+
+    </script>
+
+
+</head>
+<body>
+
+    <div class="header">
+
+        <div class="home">  
+            <a href="../Home/home.html"><img src="../resources/img/logo.png" alt="Logo" class="logo"></a> 
+        </div>
+
+        <div class="title">
+            <h1>Les Caisses du Seigneurs</h1>
+        </div>
+
+        <div class="header_logo">
+            <a href=""><img src="../resources/img/logo_cart.png" alt="Cart" class="header_thumbnail"></a><!-- Mettre le lien de la bonne page -->
+            <a href=""><img src="../resources/img/logo_account.jpg" alt="Account" class="header_thumbnail"></a><!-- Mettre le lien de la bonne page -->
+        </div>
+    </div>
+
+
+    <div class="container">
+
+
+
+
+
+        <div class="content">
+
+            
+        </div>
+        
+
+
+       
+
+
+
+
+
+    </div>
+
+    <!-- Footer -->
+
+    <div class="footer">
+        <p>© LCS LesVoituresDuSeigneurs.com 2023 All rights reserved</p>
+    </div>
+</body>
+</html>
