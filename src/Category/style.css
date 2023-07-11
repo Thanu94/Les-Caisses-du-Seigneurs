@@ -11,17 +11,28 @@ body{
     margin-left: -40px;
 }
 
+
+
 /* Header */
 .header{
-    background-color: black;
-    color: white;
-    text-align: center;
     display: flex;
     flex-direction: row;
 }
 
+.title{
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}
+
+.title > h1 {
+    margin-left: 450px;
+    margin-right: 450px;
+}
+
 .logo{
-    width: 100px;
+    width: 150px;
     height: 100px;
 }
 
@@ -32,9 +43,11 @@ body{
 }
 
 .header_thumbnail{
-    width: 10px;
-    height: 10px;
+    width: 40px;
+    height: 40px;
 }
+
+
 
 /* Container */
 
@@ -80,4 +93,34 @@ body{
 
 .footer{
     text-align: center;
+}
+
+ /* Subtitle */
+
+.subtitle{
+    font-family: "Inter";
+    color: #C55454;
+}
+
+
+/* Buttons */
+
+.buttons > button{
+
+   
+    background: linear-gradient(#ff0000, #e3e4ef);
+   
+    border: none;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 130px;
+    border-radius: 12px;
+}
+
+.buttons > button > a {
+    color: black;
+    text-decoration: none;
 }
