@@ -1,0 +1,110 @@
+body{
+    background-color: #DEDBDB;
+
+}
+
+
+
+/* Header */
+
+.header{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    justify-content: space-between;
+    display: flex;
+}
+
+.logo{
+    width: 120px;
+    height: 100px;
+}
+
+
+.header_thumbnail{
+    width: 50px;
+    height: 50px;
+    display: grid;
+    background-color: white;
+}
+.header_logo{
+    background-color: white;
+}
+
+
+/* Container */
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* Menu */
+
+.menu{
+    background-color: #FFFFFF;
+    margin: 2%;
+    text-align: center;
+    text-decoration: none;
+}
+
+.menu > ul {
+    list-style-type: none;  
+}
+
+.menu_item{
+    /* width: 200px;
+    height: 22.600px;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    font-size: 20px; */
+
+/* 
+    color: #000;
+font-family: Inter;
+font-size: 200px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 120px;
+ */
+
+
+
+color: #000;
+    font-family: Inter;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+    letter-spacing: 12px;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    
+
+    text-decoration: none;
+  color: black;
+    
+
+}
+
+.images{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+/* Content */
+
+.thumbnail{
+    width: 150px;
+    margin: 5%;
+}
+
+
+/* Footer */
+
+.footer{
+    text-align: center;
+}
