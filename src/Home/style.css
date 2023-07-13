@@ -61,40 +61,11 @@ body{
 }
 
 .menu_item{
-    /* width: 200px;
-    height: 22.600px;
+    
+    width: 200px;
     margin-top: 50px;
     margin-right: 50px;
     margin-bottom: 50px;
-    font-size: 20px; */
-
-/* 
-    color: #000;
-font-family: Inter;
-font-size: 200px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-letter-spacing: 120px;
- */
-
-
-
-color: #000;
-    font-family: Inter;
-    font-size: 50px;
-    font-style: normal;
-    font-weight: 100;
-    line-height: normal;
-    letter-spacing: 12px;
-    margin-top: 50px;
-    margin-right: 50px;
-    margin-bottom: 50px;
-    
-
-    text-decoration: none;
-  color: black;
-    
 
 }
 

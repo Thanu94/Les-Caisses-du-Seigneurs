@@ -1,0 +1,92 @@
+body{
+    background-color: #DEDBDB;
+
+}
+
+
+/* Header */
+.header{
+    display: flex;
+    flex-direction: row;
+}
+
+.title{
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}
+
+.title > h1 {
+    margin-left: 450px;
+    margin-right: 450px;
+}
+
+.logo{
+    width: 150px;
+    height: 100px;
+}
+
+.header_logo{
+
+    display: flex;
+
+}
+
+.header_thumbnail{
+    width: 40px;
+    height: 40px;
+}
+
+/* Footer */
+
+.footer{
+    text-align: center;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.login {
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 130px;
+  padding: 5%;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.login h2 {
+  text-align: center;
+}
+
+.login form{
+
+  margin-right: 3.5%;
+}
+
+.login input[type="text"],
+.login input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.login input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #000000;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-left: 2.5%;
+  margin-top: 2.5%;
+}
+/* </style> */
